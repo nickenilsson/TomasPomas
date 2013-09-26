@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C306F48617E9980800EE0705 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48517E9980800EE0705 /* UIKit.framework */; };
+		C306F48817E9980800EE0705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48717E9980800EE0705 /* Foundation.framework */; };
+		C306F48A17E9980800EE0705 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48917E9980800EE0705 /* CoreGraphics.framework */; };
+		C306F48C17E9980800EE0705 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48B17E9980800EE0705 /* CoreData.framework */; };
+		C306F49217E9980800EE0705 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C306F49017E9980800EE0705 /* InfoPlist.strings */; };
+		C306F49417E9980800EE0705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C306F49317E9980800EE0705 /* main.m */; };
+		C306F49817E9980800EE0705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C306F49717E9980800EE0705 /* AppDelegate.m */; };
+		C306F49A17E9980800EE0705 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C306F49917E9980800EE0705 /* Default.png */; };
+		C306F49C17E9980800EE0705 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C306F49B17E9980800EE0705 /* Default@2x.png */; };
+		C306F49E17E9980800EE0705 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C306F49D17E9980800EE0705 /* Default-568h@2x.png */; };
+		C306F4A117E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C306F49F17E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodeld */; };
+		C306F4A917E9980A00EE0705 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F4A817E9980A00EE0705 /* SenTestingKit.framework */; };
+		C306F4AA17E9980A00EE0705 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48517E9980800EE0705 /* UIKit.framework */; };
+		C306F4AB17E9980A00EE0705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48717E9980800EE0705 /* Foundation.framework */; };
+		C306F4AC17E9980A00EE0705 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C306F48B17E9980800EE0705 /* CoreData.framework */; };
+		C306F4B417E9980B00EE0705 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C306F4B217E9980B00EE0705 /* InfoPlist.strings */; };
+		C306F4B717E9980B00EE0705 /* VionLabsAtflickVersion1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C306F4B617E9980B00EE0705 /* VionLabsAtflickVersion1Tests.m */; };
+		C306F4C417E99C8200EE0705 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C306F4C217E99C8200EE0705 /* RootViewController.m */; };
+		C306F4C517E99C8200EE0705 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C306F4C317E99C8200EE0705 /* RootViewController.xib */; };
+		C311BD4A17F1D4B40063B455 /* MainMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C311BD4917F1D4B40063B455 /* MainMenuTableViewCell.m */; };
+		C3307EC317F2C85E00228F4D /* MainMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3307EC217F2C85E00228F4D /* MainMenuTableViewCell.xib */; };
+		C39091B717F2DB8900A064CF /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39091B517F2DB8900A064CF /* MainMenuViewController.m */; };
+		C39091B817F2DB8900A064CF /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39091B617F2DB8900A064CF /* MainMenuViewController.xib */; };
+		C3A0EC9D17E9AB8D0006016A /* TopBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0EC9B17E9AB8D0006016A /* TopBarViewController.m */; };
+		C3A0EC9E17E9AB8D0006016A /* TopBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A0EC9C17E9AB8D0006016A /* TopBarViewController.xib */; };
+		C3C40DDB17F1745300F8F5C3 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DD917F1745300F8F5C3 /* ContentViewController.m */; };
+		C3C40DDC17F1745300F8F5C3 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C40DDA17F1745300F8F5C3 /* ContentViewController.xib */; };
+		C3C40DDF17F18DC300F8F5C3 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DDE17F18DC300F8F5C3 /* CustomCollectionViewCell.m */; };
+		C3C40DE117F18DE000F8F5C3 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C40DE017F18DE000F8F5C3 /* CustomCollectionViewCell.xib */; };
+		C3C40DE417F1965500F8F5C3 /* SnappingLayoutSmall.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DE317F1965500F8F5C3 /* SnappingLayoutSmall.m */; };
+		C3D590FD17F06C5B0059CD70 /* SnappingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D590FC17F06C5B0059CD70 /* SnappingLayout.m */; };
+		C3FBD6FA17F2D61700CED258 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBD6F917F2D61700CED258 /* ArrayDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C306F4AD17E9980A00EE0705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C306F47A17E9980700EE0705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C306F48117E9980800EE0705;
+			remoteInfo = VionLabsAtflickVersion1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C306F48217E9980800EE0705 /* VionLabsAtflickVersion1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VionLabsAtflickVersion1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306F48517E9980800EE0705 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C306F48717E9980800EE0705 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C306F48917E9980800EE0705 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C306F48B17E9980800EE0705 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C306F48F17E9980800EE0705 /* VionLabsAtflickVersion1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VionLabsAtflickVersion1-Info.plist"; sourceTree = "<group>"; };
+		C306F49117E9980800EE0705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C306F49317E9980800EE0705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C306F49517E9980800EE0705 /* VionLabsAtflickVersion1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VionLabsAtflickVersion1-Prefix.pch"; sourceTree = "<group>"; };
+		C306F49617E9980800EE0705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C306F49717E9980800EE0705 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C306F49917E9980800EE0705 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C306F49B17E9980800EE0705 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C306F49D17E9980800EE0705 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C306F4A017E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VionLabsAtflickVersion1.xcdatamodel; sourceTree = "<group>"; };
+		C306F4A717E9980A00EE0705 /* VionLabsAtflickVersion1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VionLabsAtflickVersion1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306F4A817E9980A00EE0705 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C306F4B117E9980B00EE0705 /* VionLabsAtflickVersion1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VionLabsAtflickVersion1Tests-Info.plist"; sourceTree = "<group>"; };
+		C306F4B317E9980B00EE0705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C306F4B517E9980B00EE0705 /* VionLabsAtflickVersion1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VionLabsAtflickVersion1Tests.h; sourceTree = "<group>"; };
+		C306F4B617E9980B00EE0705 /* VionLabsAtflickVersion1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VionLabsAtflickVersion1Tests.m; sourceTree = "<group>"; };
+		C306F4C117E99C8200EE0705 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C306F4C217E99C8200EE0705 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C306F4C317E99C8200EE0705 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C311BD4817F1D4B40063B455 /* MainMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuTableViewCell.h; sourceTree = "<group>"; };
+		C311BD4917F1D4B40063B455 /* MainMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuTableViewCell.m; sourceTree = "<group>"; };
+		C3307EC217F2C85E00228F4D /* MainMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuTableViewCell.xib; sourceTree = "<group>"; };
+		C39091B417F2DB8900A064CF /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		C39091B517F2DB8900A064CF /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		C39091B617F2DB8900A064CF /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		C3A0EC9A17E9AB8D0006016A /* TopBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarViewController.h; sourceTree = "<group>"; };
+		C3A0EC9B17E9AB8D0006016A /* TopBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarViewController.m; sourceTree = "<group>"; };
+		C3A0EC9C17E9AB8D0006016A /* TopBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopBarViewController.xib; sourceTree = "<group>"; };
+		C3C40DD817F1745300F8F5C3 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		C3C40DD917F1745300F8F5C3 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		C3C40DDA17F1745300F8F5C3 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		C3C40DDD17F18DC300F8F5C3 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		C3C40DDE17F18DC300F8F5C3 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		C3C40DE017F18DE000F8F5C3 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		C3C40DE217F1965400F8F5C3 /* SnappingLayoutSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnappingLayoutSmall.h; sourceTree = "<group>"; };
+		C3C40DE317F1965500F8F5C3 /* SnappingLayoutSmall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappingLayoutSmall.m; sourceTree = "<group>"; };
+		C3D590FB17F06C5B0059CD70 /* SnappingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnappingLayout.h; sourceTree = "<group>"; };
+		C3D590FC17F06C5B0059CD70 /* SnappingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappingLayout.m; sourceTree = "<group>"; };
+		C3FBD6F817F2D61700CED258 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		C3FBD6F917F2D61700CED258 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C306F47F17E9980800EE0705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306F48617E9980800EE0705 /* UIKit.framework in Frameworks */,
+				C306F48817E9980800EE0705 /* Foundation.framework in Frameworks */,
+				C306F48A17E9980800EE0705 /* CoreGraphics.framework in Frameworks */,
+				C306F48C17E9980800EE0705 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306F4A317E9980A00EE0705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306F4A917E9980A00EE0705 /* SenTestingKit.framework in Frameworks */,
+				C306F4AA17E9980A00EE0705 /* UIKit.framework in Frameworks */,
+				C306F4AB17E9980A00EE0705 /* Foundation.framework in Frameworks */,
+				C306F4AC17E9980A00EE0705 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C306F47917E9980700EE0705 = {
+			isa = PBXGroup;
+			children = (
+				C306F48D17E9980800EE0705 /* VionLabsAtflickVersion1 */,
+				C306F4AF17E9980A00EE0705 /* VionLabsAtflickVersion1Tests */,
+				C306F48417E9980800EE0705 /* Frameworks */,
+				C306F48317E9980800EE0705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C306F48317E9980800EE0705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C306F48217E9980800EE0705 /* VionLabsAtflickVersion1.app */,
+				C306F4A717E9980A00EE0705 /* VionLabsAtflickVersion1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C306F48417E9980800EE0705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C306F48517E9980800EE0705 /* UIKit.framework */,
+				C306F48717E9980800EE0705 /* Foundation.framework */,
+				C306F48917E9980800EE0705 /* CoreGraphics.framework */,
+				C306F48B17E9980800EE0705 /* CoreData.framework */,
+				C306F4A817E9980A00EE0705 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C306F48D17E9980800EE0705 /* VionLabsAtflickVersion1 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FBD6F717F2D5BF00CED258 /* Other Classes */,
+				C306F4C017E99C5900EE0705 /* ViewControllers */,
+				C306F49617E9980800EE0705 /* AppDelegate.h */,
+				C306F49717E9980800EE0705 /* AppDelegate.m */,
+				C306F49F17E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodeld */,
+				C306F48E17E9980800EE0705 /* Supporting Files */,
+				C3C40DDD17F18DC300F8F5C3 /* CustomCollectionViewCell.h */,
+				C3C40DDE17F18DC300F8F5C3 /* CustomCollectionViewCell.m */,
+				C3C40DE017F18DE000F8F5C3 /* CustomCollectionViewCell.xib */,
+			);
+			path = VionLabsAtflickVersion1;
+			sourceTree = "<group>";
+		};
+		C306F48E17E9980800EE0705 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C306F48F17E9980800EE0705 /* VionLabsAtflickVersion1-Info.plist */,
+				C306F49017E9980800EE0705 /* InfoPlist.strings */,
+				C306F49317E9980800EE0705 /* main.m */,
+				C306F49517E9980800EE0705 /* VionLabsAtflickVersion1-Prefix.pch */,
+				C306F49917E9980800EE0705 /* Default.png */,
+				C306F49B17E9980800EE0705 /* Default@2x.png */,
+				C306F49D17E9980800EE0705 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C306F4AF17E9980A00EE0705 /* VionLabsAtflickVersion1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C306F4B517E9980B00EE0705 /* VionLabsAtflickVersion1Tests.h */,
+				C306F4B617E9980B00EE0705 /* VionLabsAtflickVersion1Tests.m */,
+				C306F4B017E9980B00EE0705 /* Supporting Files */,
+			);
+			path = VionLabsAtflickVersion1Tests;
+			sourceTree = "<group>";
+		};
+		C306F4B017E9980B00EE0705 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C306F4B117E9980B00EE0705 /* VionLabsAtflickVersion1Tests-Info.plist */,
+				C306F4B217E9980B00EE0705 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C306F4C017E99C5900EE0705 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C311BD3D17F1D3790063B455 /* Main menu */,
+				C3F701EC17F044910090742A /* ContentViewController1 */,
+				C3A0EC9F17E9AC2E0006016A /* Root */,
+				C3A0EC9917E9AB620006016A /* Top bar */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C311BD3D17F1D3790063B455 /* Main menu */ = {
+			isa = PBXGroup;
+			children = (
+				C311BD4817F1D4B40063B455 /* MainMenuTableViewCell.h */,
+				C311BD4917F1D4B40063B455 /* MainMenuTableViewCell.m */,
+				C3307EC217F2C85E00228F4D /* MainMenuTableViewCell.xib */,
+				C39091B417F2DB8900A064CF /* MainMenuViewController.h */,
+				C39091B517F2DB8900A064CF /* MainMenuViewController.m */,
+				C39091B617F2DB8900A064CF /* MainMenuViewController.xib */,
+			);
+			name = "Main menu";
+			sourceTree = "<group>";
+		};
+		C3A0EC9917E9AB620006016A /* Top bar */ = {
+			isa = PBXGroup;
+			children = (
+				C3A0EC9A17E9AB8D0006016A /* TopBarViewController.h */,
+				C3A0EC9B17E9AB8D0006016A /* TopBarViewController.m */,
+				C3A0EC9C17E9AB8D0006016A /* TopBarViewController.xib */,
+			);
+			name = "Top bar";
+			sourceTree = "<group>";
+		};
+		C3A0EC9F17E9AC2E0006016A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C306F4C117E99C8200EE0705 /* RootViewController.h */,
+				C306F4C217E99C8200EE0705 /* RootViewController.m */,
+				C306F4C317E99C8200EE0705 /* RootViewController.xib */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		C3F701EC17F044910090742A /* ContentViewController1 */ = {
+			isa = PBXGroup;
+			children = (
+				C3C40DD817F1745300F8F5C3 /* ContentViewController.h */,
+				C3C40DD917F1745300F8F5C3 /* ContentViewController.m */,
+				C3C40DDA17F1745300F8F5C3 /* ContentViewController.xib */,
+			);
+			name = ContentViewController1;
+			sourceTree = "<group>";
+		};
+		C3FBD6F717F2D5BF00CED258 /* Other Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3FBD6F817F2D61700CED258 /* ArrayDataSource.h */,
+				C3FBD6F917F2D61700CED258 /* ArrayDataSource.m */,
+				C3D590FB17F06C5B0059CD70 /* SnappingLayout.h */,
+				C3D590FC17F06C5B0059CD70 /* SnappingLayout.m */,
+				C3C40DE217F1965400F8F5C3 /* SnappingLayoutSmall.h */,
+				C3C40DE317F1965500F8F5C3 /* SnappingLayoutSmall.m */,
+			);
+			name = "Other Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C306F48117E9980800EE0705 /* VionLabsAtflickVersion1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306F4BA17E9980B00EE0705 /* Build configuration list for PBXNativeTarget "VionLabsAtflickVersion1" */;
+			buildPhases = (
+				C306F47E17E9980800EE0705 /* Sources */,
+				C306F47F17E9980800EE0705 /* Frameworks */,
+				C306F48017E9980800EE0705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VionLabsAtflickVersion1;
+			productName = VionLabsAtflickVersion1;
+			productReference = C306F48217E9980800EE0705 /* VionLabsAtflickVersion1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C306F4A617E9980A00EE0705 /* VionLabsAtflickVersion1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306F4BD17E9980B00EE0705 /* Build configuration list for PBXNativeTarget "VionLabsAtflickVersion1Tests" */;
+			buildPhases = (
+				C306F4A217E9980A00EE0705 /* Sources */,
+				C306F4A317E9980A00EE0705 /* Frameworks */,
+				C306F4A417E9980A00EE0705 /* Resources */,
+				C306F4A517E9980A00EE0705 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C306F4AE17E9980A00EE0705 /* PBXTargetDependency */,
+			);
+			name = VionLabsAtflickVersion1Tests;
+			productName = VionLabsAtflickVersion1Tests;
+			productReference = C306F4A717E9980A00EE0705 /* VionLabsAtflickVersion1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C306F47A17E9980700EE0705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Niklas Nilsson";
+			};
+			buildConfigurationList = C306F47D17E9980700EE0705 /* Build configuration list for PBXProject "VionLabsAtflickVersion1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C306F47917E9980700EE0705;
+			productRefGroup = C306F48317E9980800EE0705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C306F48117E9980800EE0705 /* VionLabsAtflickVersion1 */,
+				C306F4A617E9980A00EE0705 /* VionLabsAtflickVersion1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C306F48017E9980800EE0705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306F49217E9980800EE0705 /* InfoPlist.strings in Resources */,
+				C306F49A17E9980800EE0705 /* Default.png in Resources */,
+				C306F49C17E9980800EE0705 /* Default@2x.png in Resources */,
+				C306F49E17E9980800EE0705 /* Default-568h@2x.png in Resources */,
+				C306F4C517E99C8200EE0705 /* RootViewController.xib in Resources */,
+				C3A0EC9E17E9AB8D0006016A /* TopBarViewController.xib in Resources */,
+				C3C40DDC17F1745300F8F5C3 /* ContentViewController.xib in Resources */,
+				C3C40DE117F18DE000F8F5C3 /* CustomCollectionViewCell.xib in Resources */,
+				C3307EC317F2C85E00228F4D /* MainMenuTableViewCell.xib in Resources */,
+				C39091B817F2DB8900A064CF /* MainMenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306F4A417E9980A00EE0705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306F4B417E9980B00EE0705 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C306F4A517E9980A00EE0705 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C306F47E17E9980800EE0705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306F49417E9980800EE0705 /* main.m in Sources */,
+				C306F49817E9980800EE0705 /* AppDelegate.m in Sources */,
+				C306F4A117E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodeld in Sources */,
+				C306F4C417E99C8200EE0705 /* RootViewController.m in Sources */,
+				C3A0EC9D17E9AB8D0006016A /* TopBarViewController.m in Sources */,
+				C3D590FD17F06C5B0059CD70 /* SnappingLayout.m in Sources */,
+				C3C40DDB17F1745300F8F5C3 /* ContentViewController.m in Sources */,
+				C3C40DDF17F18DC300F8F5C3 /* CustomCollectionViewCell.m in Sources */,
+				C3C40DE417F1965500F8F5C3 /* SnappingLayoutSmall.m in Sources */,
+				C311BD4A17F1D4B40063B455 /* MainMenuTableViewCell.m in Sources */,
+				C3FBD6FA17F2D61700CED258 /* ArrayDataSource.m in Sources */,
+				C39091B717F2DB8900A064CF /* MainMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306F4A217E9980A00EE0705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306F4B717E9980B00EE0705 /* VionLabsAtflickVersion1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C306F4AE17E9980A00EE0705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C306F48117E9980800EE0705 /* VionLabsAtflickVersion1 */;
+			targetProxy = C306F4AD17E9980A00EE0705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C306F49017E9980800EE0705 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C306F49117E9980800EE0705 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C306F4B217E9980B00EE0705 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C306F4B317E9980B00EE0705 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C306F4B817E9980B00EE0705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C306F4B917E9980B00EE0705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C306F4BB17E9980B00EE0705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VionLabsAtflickVersion1/VionLabsAtflickVersion1-Prefix.pch";
+				INFOPLIST_FILE = "VionLabsAtflickVersion1/VionLabsAtflickVersion1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C306F4BC17E9980B00EE0705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VionLabsAtflickVersion1/VionLabsAtflickVersion1-Prefix.pch";
+				INFOPLIST_FILE = "VionLabsAtflickVersion1/VionLabsAtflickVersion1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C306F4BE17E9980B00EE0705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VionLabsAtflickVersion1.app/VionLabsAtflickVersion1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VionLabsAtflickVersion1/VionLabsAtflickVersion1-Prefix.pch";
+				INFOPLIST_FILE = "VionLabsAtflickVersion1Tests/VionLabsAtflickVersion1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C306F4BF17E9980B00EE0705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VionLabsAtflickVersion1.app/VionLabsAtflickVersion1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VionLabsAtflickVersion1/VionLabsAtflickVersion1-Prefix.pch";
+				INFOPLIST_FILE = "VionLabsAtflickVersion1Tests/VionLabsAtflickVersion1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C306F47D17E9980700EE0705 /* Build configuration list for PBXProject "VionLabsAtflickVersion1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306F4B817E9980B00EE0705 /* Debug */,
+				C306F4B917E9980B00EE0705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306F4BA17E9980B00EE0705 /* Build configuration list for PBXNativeTarget "VionLabsAtflickVersion1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306F4BB17E9980B00EE0705 /* Debug */,
+				C306F4BC17E9980B00EE0705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306F4BD17E9980B00EE0705 /* Build configuration list for PBXNativeTarget "VionLabsAtflickVersion1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306F4BE17E9980B00EE0705 /* Debug */,
+				C306F4BF17E9980B00EE0705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C306F49F17E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C306F4A017E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodel */,
+			);
+			currentVersion = C306F4A017E9980800EE0705 /* VionLabsAtflickVersion1.xcdatamodel */;
+			path = VionLabsAtflickVersion1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C306F47A17E9980700EE0705 /* Project object */;
+}
